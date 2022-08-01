@@ -168,7 +168,11 @@ export default function DetailCountry() {
           </div>
         </div>
       ) : (
-        <h1>Kosong</h1>
+        <div className="flex justify-center items-center h-screen ">
+          <svg class="bg-purple animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+          </svg>
+          loading ...
+        </div>
       )}
     </>
   );
